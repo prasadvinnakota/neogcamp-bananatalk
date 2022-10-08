@@ -14,18 +14,16 @@
             padding:0;
             margin:0;
             font-family: 'Gemunu Libre', sans-serif;
+           
           
         }
-        
-        h1
+
+        main
         {
-           
-            text-align:center;
-            background-color:yellowgreen;
-            padding:2rem;
-            margin-block-end: 0px;
-            margin-block-start: 0px;
+            max-width: 600px;
+            margin:auto;
         }
+        
         textarea
         {
             width:80%;
@@ -63,7 +61,7 @@
             bottom:0px;
 
             background-color: yellowgreen;
-            padding:1rem;
+            padding:0.5rem;
             width:100%;
             text-align:center
         
@@ -85,11 +83,16 @@
     </style>
 </head>
 <body>
-    <h1>BananaTalk</h1>
+    <nav style="text-align: center;background-color:yellowgreen;">
+        <div style="font-size: 2rem; padding:1rem">BananaTalk</div>
+    </nav>
+    <main>
     <textarea id="txt-input" placeholder="Please enter the sentence here and we will convert banana"></textarea>
     <button id="btn-translate">Translate</button>
     <div style="font-size: larger; font-weight: bold; padding:1rem">Translated sentence can be seen here 👇</div>
     <div id="txt-output"></div>
+        
+    </main>
     <footer id="footer">
      <h2>about</h2>
      <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</p>
