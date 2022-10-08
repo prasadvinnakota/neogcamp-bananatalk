@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>BananaTalk</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&display=swap');
+        body
+        {
+            
+            padding:0;
+            margin:0;
+            font-family: 'Gemunu Libre', sans-serif;
+          
+        }
+        
+        h1
+        {
+           
+            text-align:center;
+            background-color:yellowgreen;
+            padding:2rem;
+            margin-block-end: 0px;
+            margin-block-start: 0px;
+        }
+        textarea
+        {
+            width:80%;
+            height:10vh;
+            display:block;
+            margin:1rem;
+            padding: 1rem;
+            font-size: larger;
+            font-family: 'Gemunu Libre', sans-serif;
+            
+           
+        }
+        #txt-output
+        {
+            border:1px solid black;
+            height:10vh;
+            width:80%;
+            margin:1rem;
+            padding:1rem
+
+        }
+        #btn-translate
+        {
+           padding:1rem;
+           text-align: center;
+           border-radius: 0.5rem;
+           margin:1rem;
+           background-color: yellowgreen;
+           font-weight: 800;
+        }
+        #footer
+        {
+
+            position:fixed;
+            bottom:0px;
+
+            background-color: yellowgreen;
+            padding:1rem;
+            width:100%;
+            text-align:center
+        
+        }
+        h2
+        {
+            margin-block-start: 0px;
+            margin-block-end: 0px;
+
+        }
+        p
+        {
+            margin-block-end: 0px;
+            margin-block-start: 0px;
+            max-width: 500px;
+            margin:auto;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>BananaTalk</h1>
+    <textarea id="txt-input" placeholder="Please enter the sentence here and we will convert banana"></textarea>
+    <button id="btn-translate">Translate</button>
+    <div style="font-size: larger; font-weight: bold; padding:1rem">Translated sentence can be seen here 👇</div>
+    <div id="txt-output"></div>
+    <footer id="footer">
+     <h2>about</h2>
+     <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</p>
+    </footer>
+    <script src="/index.js" type="text/javascript">
+    </script>
+</body>
+</html>
